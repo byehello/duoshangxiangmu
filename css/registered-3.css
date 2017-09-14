@@ -1,0 +1,12 @@
+/*header*/
+header {width: 1220px; height: 105px; margin: 0 auto;}
+	header img {display: block; margin-top: 35px;}
+/*section*/
+section {width: 1220px; height: 650px; margin: 0 auto;}
+	section ul {width: 1220px; height: 40px; border-bottom: 2px #e7e7e7 solid;}
+		section ul li {float: left; width: 300px; height: 40px; text-align: center; line-height: 40px; margin: 0 50px; font-weight: bold;}
+			section ul li:nth-child(3) {border-bottom: 2px #D71E00 solid;}
+	.cg {width: 700px; height: 600px; margin: 0 auto;}
+		.cg div {width: 700px; text-align: center; margin-top: 30px;}
+			.cg div:first-child img {display: block; float: left; margin-left: 260px; margin-bottom: 20px;}
+			.cg span {display: block; height: 30px; font-size: 20px; line-height: 30px; float: left;}

@@ -1,0 +1,18 @@
+/*header*/
+header {width: 1220px; height: 105px; margin: 0 auto;}
+	header img {display: block; margin-top: 35px;}
+/*section*/
+section {width: 1220px; height: 500px; margin: 0 auto;}
+	section ul {width: 1220px; height: 40px; border-bottom: 2px #e7e7e7 solid;}
+		section ul li {float: left; width: 300px; height: 40px; text-align: center; line-height: 40px; margin: 0 50px; font-weight: bold;}
+			section ul li:first-child {border-bottom: 2px #D71E00 solid;}
+	.zhuce {width: 400px; height: 400px; margin: 30px auto;}
+		.zhuce p {margin:30px; font-size: 12px;}
+		.content {overflow: hidden;}
+			.sp {display: block; float: left; font-size: 12px; margin-top: 10px; margin-left: 50px;}
+			.code {width: 120px; height: 35px; float: left;}
+			.d1 {width: 90px; height: 37px; border: 1px #e7e7e7 solid; float: left; margin: 0 10px;}
+			.d2 {width: 35px; height: 35px; float: left;}
+			.content span {display: block; width: 150px; height: 20px; float: left; font-size: 12px; text-align: center;}
+		#utel,#upwd {width: 260px; height: 35px;}
+		#btn {width: 300px; height: 35px; border-radius: 10px; background: #D71E00; color: white; margin-left: 50px; border: none;}

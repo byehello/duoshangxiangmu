@@ -1,0 +1,74 @@
+* {margin: 0; padding: 0; font-family:"微软雅黑";}
+ul,ol li {list-style: none;}
+/*nav*/
+nav {max-width: 1220px; height: 140px; margin: 0 auto;}
+	.search {margin-top: 26px; overflow: hidden;}
+		.search img {display: block; float: left;}
+		.search p {float: left;}
+		#txt {width: 530px; height: 35px; border: 2px #d71e00 solid; margin-left: 50px;}
+		#btn {width: 100px; height: 39px; background: #D71E00; margin-left: 5px; margin-right: 50px; border: none; font-size: 18px; color: white;}
+		.search ul li {float:left; margin-left: 20px;}
+	.navline {height: 33px; margin-top: 50px; overflow: hidden;}
+		.overview {width: 238px; height: 33px; background: #aa1800; color: white; text-align: center; line-height: 33px; font-size: 15px; float: left;}
+		.navline ul {width: 950px; height: 33px; float: left; margin-left: 20px;}
+		.navline ul li {float: left; padding:0 20px;}
+		.navline ul li a {display: block; text-align: center; line-height: 33px; text-decoration: none; font-size: 15px; color: #000000; font-weight: bold;}
+		.navline ul li:hover {background: #aa1800; color: white;}
+		.navline ul li:hover a {color: white;}
+/*header*/
+header {height: 564px; background: url(../img/goodslist_files/header1.jpg) no-repeat; background-position-x: -285px; position: relative;  border-top: 2px #D71E00 solid;}
+	header ol {width: 270px; height: 15px; position: absolute; left: 820px; top: 330px;}
+		header ol li {width: 15px; height: 15px; border-radius: 50%; background: white; float: left; margin-right: 10px;}
+		header ol li.active {background: orange;}
+	.right {width: 288px; height: 506px; position: absolute; left: 1005px; top: 7px;}
+	.bottom {width: 927px; height: 141px; position: absolute; left: 65px; top: 371px;}
+		.bottom img {display: block; float: left;}
+	header ul {width:800px; height:40px; position: absolute; bottom: 0; left: 65px;}	
+		header ul li {float: left; margin: 0 20px; line-height: 40px;}
+			header ul li a {text-decoration: none; color: black;}
+			header ul li a:hover {color: red;}
+/*section*/
+	/*新品首发*/
+.new {background: #F3F3F3;}
+	.new .nav {width: 1230px; height: 50px; background: url(../img/goodslist_files/header11.jpg) no-repeat; margin: 0 auto;}
+		.new .nav span {display:block; width: 300px; height: 50px; margin-left: 460px; text-align: center; line-height: 50px; font-size: 18px;}
+	.new ul{width: 1230px; margin: 0 auto; overflow: hidden;}
+		.new ul li {width: 234px; height: 336px; border: 1px #e7e7e7 solid; float: left; margin-right: 10px; margin-bottom: 10px; position: relative;}
+		.new ul li:hover {box-shadow: 2px 2px 2px #000;}
+		.new ul li a {text-decoration: none; color: black;}
+			.new ul li img {display: block; width: 218px; height: 218px; margin: 8px;}
+			.new ul li p {font-size: 12px; white-space: pre-line; width: 218px; height: 50px; margin: 8px;}
+			.new ul li button {background: #D71E00; color: white; width: 70px; height: 25px; border: none; position: absolute; right: 10px; bottom: 20px; cursor: pointer;}
+	/*连衣裙/套装裙*/
+.dress {background: #F3F3F3;}
+	.dress .nav {width: 1230px; height: 50px; background: url(../img/goodslist_files/header11.jpg) no-repeat; margin: 0 auto;}
+		.dress .nav span {display:block; width: 300px; height: 50px; margin-left: 460px; text-align: center; line-height: 50px; font-size: 18px;}
+	.dress ul{width: 1230px; margin: 0 auto; overflow: hidden;}
+		.dress ul li {width: 234px; height: 336px; border: 1px #e7e7e7 solid; float: left; margin-right: 10px; margin-bottom: 10px; position: relative;}
+		.dress ul li:hover {box-shadow: 2px 2px 2px #000;}
+		.dress ul li a {text-decoration: none; color: black;}
+			.dress ul li img {display: block; width: 218px; height: 218px; margin: 8px;}
+			.dress ul li p {font-size: 12px; white-space: pre-line; width: 218px; height: 50px; margin: 8px;}
+			.dress ul li button {background: #D71E00; color: white; width: 70px; height: 25px; border: none; position: absolute; right: 10px; bottom: 20px; cursor: pointer;}			
+	/*T恤/上衣/防晒衫/雪纺衫*/
+.coat {background: #F3F3F3;}
+	.coat .nav {width: 1230px; height: 50px; background: url(../img/goodslist_files/header11.jpg) no-repeat; margin: 0 auto;}
+		.coat .nav span {display:block; width: 300px; height: 50px; margin-left: 460px; text-align: center; line-height: 50px; font-size: 18px;}
+	.coat ul{width: 1230px; margin: 0 auto; overflow: hidden;}
+		.coat ul li {width: 234px; height: 336px; border: 1px #e7e7e7 solid; float: left; margin-right: 10px; margin-bottom: 10px; position: relative;}
+		.coat ul li:hover {box-shadow: 2px 2px 2px #000;}
+		.coat ul li a {text-decoration: none; color: black;}
+			.coat ul li img {display: block; width: 218px; height: 218px; margin: 8px;}
+			.coat ul li p {font-size: 12px; white-space: pre-line; width: 218px; height: 50px; margin: 8px;}
+			.coat ul li button {background: #D71E00; color: white; width: 70px; height: 25px; border: none; position: absolute; right: 10px; bottom: 20px; cursor: pointer;}
+	/*下装专区/短裤/牛仔裤/半裙/休闲裤*/	
+.bottoms {background: #F3F3F3;}
+	.bottoms .nav {width: 1230px; height: 50px; background: url(../img/goodslist_files/header11.jpg) no-repeat; margin: 0 auto;}
+		.bottoms .nav span {display:block; width: 300px; height: 50px; margin-left: 460px; text-align: center; line-height: 50px; font-size: 18px;}
+	.bottoms ul{width: 1230px; margin: 0 auto; overflow: hidden;}
+		.bottoms ul li {width: 234px; height: 336px; border: 1px #e7e7e7 solid; float: left; margin-right: 10px; margin-bottom: 10px; position: relative;}
+		.bottoms ul li:hover {box-shadow: 2px 2px 2px #000;}
+		.bottoms ul li a {text-decoration: none; color: black;}
+			.bottoms ul li img {display: block; width: 218px; height: 218px; margin: 8px;}
+			.bottoms ul li p {font-size: 12px; white-space: pre-line; width: 218px; height: 50px; margin: 8px;}
+			.bottoms ul li button {background: #D71E00; color: white; width: 70px; height: 25px; border: none; position: absolute; right: 10px; bottom: 20px; cursor: pointer;}		

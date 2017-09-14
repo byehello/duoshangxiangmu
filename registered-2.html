@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/registered-2.css" />
+	</head>
+	<body>
+	<!--navigation-->
+		<div class="navigation">
+			<span>您好，欢迎来到多商网！</span>
+			<a href="http://127.0.0.1/duoshangwang/login.html">[请登录]</a>
+			<a href="http://127.0.0.1/duoshangwang/registered-1.html">[免费注册]</a>
+		</div>
+	<!--header-->
+		<header>
+			<img src="img/registered/register1.jpg">
+		</header>
+	<!--section-->
+		<section>
+			<div>
+				<ul>
+					<li>① 使用邮箱/手机注册</li>
+					<li>② 设置用户信息</li>
+					<li>③ 注册成功</li>
+				</ul>
+			</div>
+			<div class="zc">
+				<form action="http://127.0.0.1/duoshangwang/registered-3.html" onsubmit="return checkForm()">
+					<p>用户名： <input type="text" placeholder="用户名" class="uname" id="uname"><span id="s1"></span></p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱: <input type="text" placeholder="邮箱" class="uemail" id="uemail"><span id="s2"></span></p>
+					<p>用户身份：请选择您的身份（可多选）<br>
+						<input type="checkbox" name="shenfen" class="shenfen">我是淘宝店主<br>
+						<input type="checkbox" name="shenfen" class="shenfen">我想开微店<br>&emsp;&emsp;
+						<input type="checkbox" name="shenfen" class="shenfen">我是线下专营店主
+						<span id="s3"></span></p>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;网点： <input type="text" placeholder="填写网店地址，免费网店诊断" class="uweb" id="uweb"></p>
+						<p>邀请码： <input type="text" placeholder="没有请留空" class="invite" id="invite"></p>
+						<p><input type="submit" value="完成注册，领取淘宝课程卷" class="btn" id="btn"></p>
+				</form>
+			</div>
+		</section>
+	<!--footer-->	
+		<footer>
+			<ul>
+				<li>关于多商网</li>
+				<li>了解多商网</li>
+				<li>加入我们</li>
+				<li>联系我们</li>
+				<li>常见问题</li>
+			</ul>
+			<ul>
+				<li>分销商帮助</li>
+				<li>如何成为分销商</li>
+				<li>入驻多商</li>
+				<li>批发、进货流程</li>
+				<li>分销产品流程</li>
+			</ul>
+			<ul>
+				<li>成长路径</li>
+				<li>分销商成长路径</li>
+				<li>转介绍福利</li>
+				<li>邀请有奖</li>
+			</ul>
+			<ul>
+				<li>报活动</li>
+				<li>申请活动</li>
+				<li>活动产品</li>
+			</ul>
+			<ul>
+				<li>供应商帮助</li>
+				<li>如何成为供应商</li>
+				<li>点击入住多商</li>
+				<li>产品上架流程</li>
+			</ul>
+			<ul>
+				<li>帮助中心</li>
+				<li>找回密码</li>
+				<li>常见问题</li>
+				<li>多商学院</li>
+			</ul>
+			<img src="img/footer4.jpg">
+		</footer>
+	</body>
+</html>
+<script src="js/registered-2.js"></script>

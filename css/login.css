@@ -1,0 +1,13 @@
+/*header*/
+header {width: 1220px; height: 105px; margin: 0 auto;}
+	header img {display: block; margin-top: 35px;}
+/*section*/
+section {width: 1220px; height: 500px; margin: 0 auto;}
+		.tp {width: 420px; height: 267px; float: left; margin:117px 100px 117px 200px;}
+		.dlxx {border: 1px #e7e7e7 solid; width: 300px; height: 267px; float: left; margin-top: 117px;}
+			.txt {width: 270px; height: 35px; border: 1px #e7e7e7 solid; margin: 15px;}
+			.pwd {width: 270px; height: 35px; border: 1px #e7e7e7 solid; margin: 15px;}
+			.dlxx p:nth-child(3) input {margin-left: 15px;}
+			.dlxx p:nth-child(3) a {display: block; float: right; margin-right: 15px; text-decoration: none; font-size: 12px;}
+			.btn {width: 270px; height: 35px; background: #D71E00; color: white; margin: 15px; border-radius: 5px; border: none;}
+			.dlxx p:last-child a {display: block; float: right; margin-right: 15px; text-decoration: none; font-size: 12px;}

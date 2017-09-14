@@ -1,0 +1,139 @@
+* {margin: 0; padding: 0; font-family:"微软雅黑";}
+ul,ol li {list-style: none;}
+/*nav*/
+nav {max-width: 1220px; height: 140px; margin: 0 auto; border-bottom: 2px #D71E00 solid;}
+	.search {margin-top: 26px; overflow: hidden;}
+		.search img {display: block; float: left;}
+		.search p {float: left;}
+		#txt {width: 530px; height: 35px; border: 2px #d71e00 solid; margin-left: 50px;}
+		#btn {width: 100px; height: 39px; background: #D71E00; margin-left: 5px; margin-right: 50px; border: none; font-size: 18px; color: white;}
+		.search ul li {float:left; margin-left: 20px;}
+	.navline {height: 33px; margin-top: 50px; overflow: hidden;}
+		.overview {width: 238px; height: 33px; background: #aa1800; color: white; text-align: center; line-height: 33px; font-size: 15px; float: left;}
+		.navline ul {width: 950px; height: 33px; float: left; margin-left: 20px;}
+		.navline ul li {float: left; padding:0 20px;}
+		.navline ul li a {display: block; text-align: center; line-height: 33px; text-decoration: none; font-size: 15px; color: #000000; font-weight: bold;}
+		.navline ul li:hover {background: #aa1800; color: white;}
+		.navline ul li:hover a {color: white;}
+					
+/*header*/
+header {max-width: 1220px; height: 510px; margin: 0 auto;}
+	/*navlist*/
+	.navlist {width: 238px; height: 510px; background: #2d2d2d; color: white; font-size: 12px; float: left;}
+		.navlist li {width:205px; height: 50px; border-bottom: 1px white dotted; margin-left: 15px; padding-top: 10px; position: relative;}
+			.navlist li ul {position: absolute; left: 223px; top: 0; z-index: 10; width: 500px; border: 2px #D71E00 solid; border-left: none; background: white; display: none; }
+				.navlist li ul li {width: 470px; border-bottom: 1px #e7e7e7 dotted;}
+				.navlist li ul p {margin-bottom: 10px; font-weight: bold; color: red;}
+				.navlist li ul span {color: black;}
+		.navlist .lastlist {border: none;}
+		.navlist div {margin-top: 10px;}
+		.navlist div a {text-decoration: none; color: white;}
+	/*lunbo*/	
+	.lunbo {width: 530px; height: 510px; float: left; margin: 0 10px;}
+		.biglunbo {height: 270px; position: relative;}
+			.biglunbo ul {position: relative;}
+			.biglunbo ul li {position: absolute;}
+			.biglunbo ol {position: absolute; right: 215px; bottom: 10px; width: 130px;}
+			.biglunbo ol li {float: left; width: 10px; height: 10px; border-radius: 50%; margin: 0 5px; background-color: #eee;}
+			.biglunbo ol li.active {background-color: orange;}	
+		.smalllunbo {height: 200px; position: relative; margin-top: 30px; border-top: 2px #D71E00 solid; overflow: hidden;}
+			.smalllunbo ul {position: relative;}
+			.smalllunbo ul li {position: absolute;}
+			.smalllunbo ul li div a {display: block; float: left; width: 132px;}
+			.smalllunbo ol {position: absolute; right: 215px; bottom: 10px; width: 90px;}
+			.smalllunbo ol li {float: left; width: 10px; height: 10px; border-radius: 50%; margin: 0 5px; background-color: #eee;}
+			.smalllunbo ol li.active1 {background-color: orange;}	
+	/*special*/	
+	.special {width: 175px; height: 510px; float: left; margin-right: 15px;}
+		.shang a {display: block; width: 175px; height: 270px;}
+		.xia {margin-top: 30px;}
+			.xia a img {display: block; width: 175px; height: 200px;}
+	/*personal*/
+	.personal {width: 240px; height: 500px; border: 1px #e7e7e7 solid; float: left; overflow: hidden;}
+		.one {width:240px; height: 85px; background: #e7e7e7;}
+			.one img {display: block; width: 53px; height: 53px; float: left; margin: 15px;}
+			.one h5 {padding-top: 25px; text-decoration: none; color: black;}
+			.one p {text-decoration: none; color: black;}
+		.two {width: 240px; height: 40px;}
+			.two li {float: left; width: 119px; height: 40px; border-bottom: 1px #e7e7e7 solid; border-right: 1px #e7e7e7 solid;}
+			.two .two-last {border-right: none;}
+			.two li a {display: block; text-decoration: none; text-align: center; line-height: 40px; font-size: 15px; color:black;}
+			.two li a:hover {color: red;}
+		.three {width:240px; height: 163px; border-bottom: 1px #e7e7e7 solid; border-top: 1px #e7e7e7 solid; margin-top: 2px;}
+			.tab {width: 240px; height: 30px; overflow: hidden;}
+			.tab li {float: left; width: 79px; text-align: center; line-height: 30px; background: #f5f5f5; border-right: 1px #e7e7e7 solid;}
+			.tab li.active2 {background: white; border-top: 2px red solid; border-right: none;}
+			.tiaoli {width: 240px; height: 130px;}
+			.tiaoli .main {float: left; display: none;}
+			.tiaoli .main li {margin: 5px 20px 0; background: url(../img/personal2.png) no-repeat left center;}
+			.tiaoli .main li a {display: block; text-decoration: none; font-size: 10px; color: black; padding-left: 10px;}
+			.tiaoli .main.selected {display: block;}
+		.four {width: 240px; height: 70px; border-bottom: 1px #e7e7e7 solid;}
+			.four li {width: 79px; height: 70px; float: left; border-right: 1px #e7e7e7 solid; position: relative;}
+			.four li img {position: absolute; left: 24px; top: 10px;}
+			.four li a {display: block; position: absolute; left: 18px; top: 40px; font-size: 15px; text-decoration: none; color: black;}
+			.four li a:hover{color: red;}
+		.five h4 {margin:15px 20px;}
+			.five ul li {font-size: 12px; color:#666; margin-bottom: 5px; margin-left: 20px;}
+/*floot*/			
+.floot-first,.floot-second,.floot-third,.floot-fourth,.floot-fifth,.floot-sixth,.floot-seventh,.floot-eighth {width: 1220px; height: 530px; margin: 0 auto; margin-top: 50px;}
+	.title {height: 35px; border-bottom: 2px #ca2430 solid; overflow: hidden;}
+		.title div {float: left;}
+		.title div:first-child {width:50px; height:35px; background: url(../img/floot-first1.jpg) no-repeat; text-align: center; line-height: 35px; color: white;}
+			.title div h3 {line-height: 35px; margin-left: 10px; color: #CA2430; font-weight: 500;}
+			.title div h5 {line-height: 35px; margin-left: 5px; color:#666; font-weight: 500;}
+	.left {width: 215px; height: 480px; float: left; border: 1px #e7e7e7 solid; border-bottom: none;}
+		.left>div {width:215px; height:160px; border-bottom: 1px #e7e7e7 solid; overflow: hidden; position: relative;}
+			.left>div p {margin:10px 0 0 15px; color: #ca2430;}
+			.left>div ul {width: 90px; height: 145px; float: left; position: absolute;}
+			.left>div div {width: 125px; height: 145px; float: left; position: absolute; left: 90px; top: 0;}
+				.left>div ul li {font-size: 12px; margin: 5px 15px;}
+	.center {width: 790px; height: 490px; float: left;}
+		.center li {float: left; width: 190px; height: 245px; font-size: 12px; border: 1px #e7e7e7 solid;}
+		.center li:hover {box-shadow:2px 2px 2px #000 ;}
+			.center li dl dt img {display:block; width:175px; height: 175px; margin-left: 7px; margin-top: 10px;}
+			.center li dl dd a{display:block; margin:10px 0 5px 7px; color: black; text-decoration: none;}
+			.center li span {display:block; color:#d51e00; margin-left: 7px; font-size: 15px; float: left;}
+			.center li p {width: 50px; height: 15px; background: #D51E00; color: white; text-align: center; float: left; margin-left: 7px; margin-top: 2px;}
+	.right {width: 213px; height: 490px; float: left;}
+		.right img {display: block; width: 213px; height: 245px;}
+/*dynamic*/
+.dynamic {width: 1220px; height: 500px; margin: 0 auto; margin-top: 50px; overflow: hidden;}
+	.dynamic .d {width: 1220px; height: 30px; border-bottom: 2px #CA2430 solid; font-size: 15px;}
+	.dynamic .l {width: 373px; height: 470px; float: left; border: 1px #e7e7e7 solid; border-top: none;}
+		.dynamic .eve {width: 343px; height: 40px; border-bottom: 1px #e7e7e7 solid; margin: 0 15px;}
+			.dynamic .eve span {display: block; float: left; line-height: 40px;}
+			.dynamic .eve a {display: block; float: right; line-height: 40px; font-size: 12px; text-decoration: none; color: black;}
+		.dynamic .hua {width: 343px; height: 215px; margin: 30px 15px; position: relative;}
+			.dynamic .hua ul {width: 343px; height: 215px; position: relative; z-index: 1; overflow: hidden;}
+				.dynamic .hua ul li {position: absolute; left: 343px; top: 0;}
+				.dynamic .hua ul img {display: block; width: 343px; height: 215px;}
+			.dynamic .hua ol{position: absolute; left: 110px; bottom: 10px; width: 130px; z-index: 2;}
+				.dynamic .hua ol li {float: left; width: 10px; height: 10px; border-radius: 50%; margin: 0 5px; background-color: #666;}
+				.dynamic .hua ol li.active3 {background-color: orange;}
+		.dynamic .xiang {width: 343px; height:155px; margin: 0 15px;}
+			.dynamic li {font-size: 12px; margin: 5px 0 5px 15px;}
+	.dynamic .c {width: 428px; height: 470px; float: left; border: 1px #e7e7e7 solid; border-top: none;}
+		.dynamic .case {width: 398px; height: 40px; border-bottom: 1px #e7e7e7 solid; margin: 0 15px;}
+			.dynamic .case span {display: block; float: left; line-height: 40px;}
+			.dynamic .case a {display: block; float: right; line-height: 40px; font-size: 12px; text-decoration: none; color: black;}
+			.dynamic .story {width: 398px; height: 408px;}
+				.dynamic .story li {width: 398px; height: 135px; border-bottom: 1px #e7e7e7 dashed; overflow: hidden; position: relative;}
+				.dynamic .story li img {float: left; margin: 15px 20px;}
+				.dynamic .story li p {position: absolute; left: 130px; margin-top: 15px; width: 265px; font-size: 15px; font-weight: bold;}
+				.dynamic .story li p:last-child {position: absolute; left: 130px; top: 35px; width: 265px; font-size: 12px; font-weight: 500;}
+	.dynamic .r {width: 413px; height: 470px; float: left; border: 1px #e7e7e7 solid; border-top: none;}
+		.dynamic .stay {width: 383px; height: 40px; border-bottom: 1px #e7e7e7 solid; margin: 0 15px;}
+			.dynamic .stay span {display: block; float: left; line-height: 40px;}
+			.dynamic .stay a {display: block; float: right; line-height: 40px; font-size: 12px; text-decoration: none; color: black;}
+		.dynamic .about {width: 383px; height: 180px; margin: 0 15px; border-bottom: 1px #e7e7e7 solid; font-size: 15px; color: #666;}
+		.dynamic .fenbu {width: 320px; margin: 10px 45px; position: relative;}
+		.dynamic p {position: absolute; right: 0;}
+			.dynamic p a { text-decoration: none; color: black; font-size: 12px;}
+/*link*/
+.link {width: 1220px; height: 150px; margin: 50px auto;}
+	.link .you {width: 1220px; height: 40px; font-size: 15px;}
+		.link .you span {display: block; float: left; line-height: 40px;}
+		.link .you p {float: right; line-height: 40px; text-decoration: none; color: black;}
+	.link .yl {width: 1220px; height: 110px; border: 1px #e7e7e7 solid;}
+		.link .yl img {display: block; margin: 24px 24px;}

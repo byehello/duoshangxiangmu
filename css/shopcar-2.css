@@ -1,0 +1,32 @@
+* {margin: 0; padding: 0; font-family:"微软雅黑";}
+ul,ol li {list-style: none;}
+/*nav*/
+nav {width: 1220px; height: 140px; margin: 0 auto;}
+	.search {margin-top: 26px; overflow: hidden;}
+		.search img {display: block; float: left;}
+		.search p {float: left;}
+		#txt {width: 530px; height: 35px; border: 2px #d71e00 solid; margin-left: 50px;}
+		#btn {width: 100px; height: 39px; background: #D71E00; margin-left: 5px; margin-right: 50px; border: none; font-size: 18px; color: white;}
+		.search ul li {float:left; margin-left: 20px;}
+	.navline {height: 33px; margin-top: 50px; overflow: hidden; background: #D71E00;}
+		.overview {width: 238px; height: 33px; background: #aa1800; color: white; text-align: center; line-height: 33px; font-size: 15px; float: left;}
+		.navline ul {width: 950px; height: 33px; float: left; margin-left: 20px;}
+			.navline ul li {float: left; padding:0 20px;}
+				.navline ul li a {display: block; text-align: center; line-height: 33px; text-decoration: none; font-size: 15px; color: white; font-weight: bold;}
+				.navline ul li:hover {background: #aa1800; color: white;}
+				.navline ul li:hover a {color: white;}
+/*header*/
+header {width: 1025px; height: 75px; margin: 20px auto;}
+	header ul {width: 1025px; height: 35px; position: relative;}
+		header ul li:first-child {background: url(../img/shopcar1.gif); width: 335px; height: 35px; float: left; background-position-y: -35px;}
+		header ul li:nth-child(2) {width: 349px; height: 35px; background: url(../img/shopcar1.gif); float: left; background-position-y: -70px;}
+		header ul li:last-child {width: 338px; height: 35px; background: url(../img/shopcar1.gif); float: left; background-position-y: -175px;}
+/*ssection*/
+section {width: 1025px; margin: 0 auto;}
+	section p {margin-bottom: 10px; line-height: 30px;}
+	section input {width: 100px; height: 30px;}
+	section p:nth-child(7) input {width: 15px; height: 15px; margin-left: 80px;}
+	section p:first-child input {margin-left: 10px;}
+	section p:nth-child(4) input {margin-left: 33px;}
+	section p:nth-child(5) input {margin-left: 33px;}
+	section p:last-child input {float: right; margin: 0 20px; background: #fea439; color: white;}
